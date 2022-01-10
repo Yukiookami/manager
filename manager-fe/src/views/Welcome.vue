@@ -1,16 +1,16 @@
 <!--
  * @Author: zxy
  * @Date: 2021-10-09 18:48:23
- * @LastEditTime: 2021-12-12 16:38:56
+ * @LastEditTime: 2022-01-10 15:15:22
  * @FilePath: /manager-i/manager-fe/src/views/Welcome.vue
 -->
 <template>
   <div class="welcome">
     <div class="content">
-      <div class="sub-title">欢迎使用</div>
-      <div class="title">SKU通用后台管理系统</div>
+      <div class="sub-title">ようこそ！</div>
+      <div class="title">SKU企業管理システム</div>
       <div class="desc">
-        - Vue3.0+ElementPlus+Node+Mongo打造通用后台管理系统
+        - Vue3.2+ElementPlus+Node+Mongoに基づいて開発した管理システム
       </div>
     </div>
     <div class="img"></div>

@@ -1,3 +1,9 @@
+/*
+ * @Author: zxy
+ * @Date: 2021-10-09 18:48:23
+ * @LastEditTime: 2022-01-10 15:17:21
+ * @FilePath: /manager-i/manager-fe/src/router/index.js
+ */
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '@/components/Home.vue'
 import storage from './../utils/storage'
@@ -9,7 +15,7 @@ const routes = [
         name: 'home',
         path: '/',
         meta: {
-            title: '首页'
+            title: 'ホームページ'
         },
         component: Home,
         redirect: '/welcome',
@@ -18,7 +24,7 @@ const routes = [
                 name: 'welcome',
                 path: '/welcome',
                 meta: {
-                    title: '欢迎体验Vue3全栈课程'
+                    title: 'ようこそSKU企業管理システム'
                 },
                 component: () => import('@/views/Welcome.vue')
             }
@@ -28,7 +34,7 @@ const routes = [
         name: 'login',
         path: '/login',
         meta: {
-            title: '登录'
+            title: 'ログイン'
         },
         component: () => import('@/views/Login.vue')
     },

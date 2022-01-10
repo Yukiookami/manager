@@ -1,3 +1,9 @@
+/*
+ * @Author: zxy
+ * @Date: 2021-10-09 18:48:23
+ * @LastEditTime: 2022-01-10 15:14:11
+ * @FilePath: /manager-i/manager-fe/src/utils/request.js
+ */
 /**
  * axios二次封装
  */
@@ -7,8 +13,8 @@ import { ElMessage } from 'element-plus'
 import router from './../router'
 import storage from './storage'
 
-const TOKEN_INVALID = 'Token认证失败，请重新登录'
-const NETWORK_ERROR = '网络请求异常，请稍后重试'
+const TOKEN_INVALID = 'Token認証失敗'
+const NETWORK_ERROR = 'ネットワークエラー'
 
 // 创建axios实例对象，添加全局配置
 const service = axios.create({

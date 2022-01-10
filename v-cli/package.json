@@ -6,7 +6,7 @@
   "bin": {
     "v": "./bin/index.js"
   },
-  "author": "河畔一角",
+  "author": "SKU",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
